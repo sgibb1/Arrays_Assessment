@@ -15,6 +15,6 @@
                         "location" => "Valencia has many locations in Florida", "online" => "Valencia offers distance learning along with in person classes.");
                         
     foreach ($valencia as $x => $x_value) {
-        echo $valencia;
+        echo "Key=" . $x . ", Value=" . $x_value;
         echo "<br>";
     }
